@@ -22,6 +22,8 @@ def n_desplazado (n, valor_letra):
     n = int(n)
     while n > 26:
         n = n - 26
+    while n<=0:
+        n = n + 26
     if (n + valor_letra) > 25:
         n_nuevo = n+valor_letra-26
     else:
@@ -39,6 +41,4 @@ def main():
     n = n_desplazado(n,valor_letra)
     mostrar_nueva_letra(n+65)
   
-    
 main()
-    
