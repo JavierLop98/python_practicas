@@ -36,7 +36,7 @@ def main():
     letra = pedir_letra()
     n = pedir_n()
     valor_letra=ord(letra)-65
-    n = n_desplazado(n,valor_letra) #juntar con la linea de arriba
+    n = n_desplazado(n,valor_letra)
     mostrar_nueva_letra(n+65)
   
     
