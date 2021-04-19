@@ -1,0 +1,7 @@
+Para ejecutar el programa abrir una terminal y con cd introducir
+la ubicación en la que se encuentra el programa, ejecutar el porgrama
+de la siguiente manera:
+>>> python media_por_com_aut.py datos_limpios.txt
+
+El archivo datos_limpios.txt debe de estar en la misma carpeta que media_por_com_aut.py 
+para su correcto funcionamiento.
